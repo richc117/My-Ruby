@@ -6,7 +6,7 @@ puts "roosters", 100 - 25 * 3 % 4
 #Adds, suntracts, divides, and also mods a bunch of stuff
 puts "Now I will count the eggs:"
 
-puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+puts 3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4.0 + 6
 # Asks whether 5 is less than -2  outputs false
 puts "Is it true that 3 + 2 < 5 - 7?"
 

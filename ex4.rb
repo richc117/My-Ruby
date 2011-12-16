@@ -1,5 +1,5 @@
 cars = 100 # car variable equals 100
-space_in_a_car = 4 # The 4.0 is a floating point number, necessary to represents represent a real number can support the range. Meaning that the deciminal point is placed relative to the significant digits of the number.
+space_in_a_car = 4.0  # The 4.0 is a floating point number, necessary to represents represent a real number can support the range. Meaning that the deciminal point is placed relative to the significant digits of the number.
 drivers = 30 # drivers variable equals 30
 passengers = 90 # passengers variable equals 90
 cars_not_driven = cars - drivers #cars-not-driven equals 100 minus 30
@@ -13,4 +13,6 @@ puts "There will be #{cars_not_driven} empty cars today."
 puts "We can transport #{carpool_capacity} people today."
 puts "We have #{passengers} passengers to carpool today."
 puts "We need to put about #{average_passengers_per_car} in each car."
-
+puts "my name is:"
+print "Richard mvim"
+puts "Caballero"

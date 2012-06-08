@@ -1,10 +1,11 @@
 puts "I am 6'2\" tall."    #escape double-qoute inside string
-puts 'I am 6\'2" tall.'    #escape single-quote inside string sys
+puts 'I am 6\'2" tall.'    #escape single-quote inside string
+
 tabby_cat = "\tI'm tabbed in."
 persian_cat = "I'm split\non a line."
 backslash_cat = "I'm \\ a \\ cat."
 
-fat_cat = <<MY_HEREDOC   
+fat_cat = <<MY_HEREDOC
 I'll do a list:
 \t* Cat Food
 \t* Fishies
